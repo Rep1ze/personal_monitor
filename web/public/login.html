@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="login.css">
+    <link rel="icon" href="icons8-wakanim-64.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <div id="login"></div>
+</head>
+<body>
+    <form action="http://localhost:3000/api/home" method="post">
+        <input class="email" required placeholder="Enter your e-mail" type="email" pattern="^\S+@\S+\.\S+$">
+        <input class="password" required placeholder="Enter your password" type="password">
+        <button class="btn1" role="button" type="submit">login</button>
+    </form>
+    
+    <script src="login.mjs"></script>
+</body>
+</html>
